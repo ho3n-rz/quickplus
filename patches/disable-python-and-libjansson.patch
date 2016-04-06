@@ -83,8 +83,7 @@
 +  ],
 +  [
 +    AC_MSG_ERROR([No lua found. Install lua])
-   ])
--
+   ],[
 +# Optional
 +AC_MSG_CHECKING([for python])
 +AX_PYTHON()
